@@ -6,14 +6,17 @@
 
 # Quick Start 🚀
 
-### Add a default.json file in config folder with the following
+### Add a .env file. Use the .env.example
 
 ```json
-{
-  "mongoURI": "<your_mongoDB_Atlas_uri_with_credentials>",
-  "jwtSecret": "secret",
-  "githubToken": "<yoursecrectaccesstoken>"
-}
+PORT=5002
+MONGO_URI=mongodb://localhost:27017/simple-api-starter
+JWT_SECRET=hfo8w37hf87hwro8wehr87erhow837
+TRANSPORTER_HOST=
+TRANSPORTER_PORT=
+TRANSPORTER_EMAIL_ADDRESS=
+TRANSPORTER_PASSWORD=
+EMAIL_FROM=info@mwebaze.com
 ```
 
 ### Install server dependencies
@@ -43,7 +46,6 @@ Check in browser on [http://localhost:5000/](http://localhost:5000/)
 
 ### Author
 
-Jonathan Mwebaze
 [Jonathan Mwebaze](http://www.mwebaze.com)
 
 ### Version
