@@ -1,6 +1,6 @@
-# Simple API Starter
+# JustKnow API
 
-> A simple NodeJS API Starter for your next big project.
+> 
 
 ---
 
